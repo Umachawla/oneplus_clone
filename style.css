@@ -17,7 +17,7 @@ nav{
   align-items: center;
   justify-content: space-between;
 }
-span{
+nav span{
   width: 40%;
   display: flex;
   align-items: center;
@@ -87,7 +87,7 @@ span{
 
 .mobile{
   height: 80vh;
-  padding: 40px 140px;
+  padding: 40px 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -150,15 +150,15 @@ span{
 
 .card{
   height: 60vh;
-  padding: 10px 140px;
+  padding: 10px 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .tv-card{
-  height: 500px;
-  width: 800px;
+  height: 550px;
+  width: 880px;
   padding: 25px;
   background-color: #f8f8f8;
   display: flex;
@@ -205,7 +205,7 @@ span{
 
 .hot-picks{
   height: 100vh;
-  padding: 40px 140px;
+  padding: 40px 120px;
 }
 
 .hot-picks h3{
@@ -306,7 +306,7 @@ span{
 
 .oneplus-featuring{
   height: 100vh;
-  padding: 20px 140px;
+  padding: 20px 120px;
   background-color: black;
 }
 
@@ -373,7 +373,7 @@ span{
 }
 .never-settle{
   height: 100vh;
-  padding: 20px 140px;
+  padding: 20px 120px;
   background-color: black;
 }
 
@@ -390,6 +390,7 @@ span{
   width: 70%;
   height: 100%;
   background-size: cover;
+  margin-right: 20px;
 }
 
 .never-settle  .relentless{
@@ -411,6 +412,220 @@ span{
 .never-settle .heading{
   display: flex;
 }
+
+.settle-featuring-card{
+  height: 60vh;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+
+}
+
+.settle-text-section{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.settle-text-section h1{
+  font-size: 50px;
+  font-weight: 400;
+  color: #fff;
+}
+.settle-text-section .deliver{
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+.settle-text-section .learn{
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: gray 1px solid;
+  padding-bottom: 4px;
+  width: 150px;
+  margin-top: 20px;
+  color: #fff;
+}
+.oxygen{
+  height: 70vh;
+  padding: 10px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+}
+.oxygen-card{
+  height: 550px;
+  width: 880px;
+  background-color: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.oxygen-text-section{
+  height: 90%;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.oxygen-text-section h3{
+  font-size: 24px;
+  font-weight: 400;
+  color: hsla(0,0%,100%,.3);
+}
+.oxygen-text-section h1{
+  font-size: 42px;
+  font-weight: 300;
+  color: white;
+}
+.oxygen-text-section p{
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+.oxygen-text-section .learn{
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: gray 1px solid;
+  padding-bottom: 4px;
+  width: 120px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.oxygen-image-section img{
+  height: 548px;
+}
+
+.red-cable{
+  height: 110vh;
+  padding: 20px 120px;
+  background-color: black;
+}
+
+.red-cable h3{
+  font-size: 22px;
+  font-weight: 400;
+  border-bottom: gray 1px solid;
+  padding-bottom: 10px;
+  color: #fff;
+  margin-top: 20px;
+}
+.cable-image-section{
+  background-image: url(./images/RCC-pc.jpg.thumb.webp);
+  width: 70%;
+  height: 100%;
+  background-size: cover;
+  margin-right: 20px;
+}
+.red-cable-card{
+  height: 70vh;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.red-cable  .inspire{
+  font-size: 50px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 20px;
+}
+.red-cable .club{
+  font-size: 50px;
+  font-weight: 300;
+  color: red;
+  width: 20%;
+}
+
+
+
+.cable-text-section{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cable-text-section h1{
+  font-size: 50px;
+  font-weight: 300;
+  color: #fff;
+}
+.cable-text-section .deliver{
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+.cable-text-section .learn{
+  font-size: 22px;
+  font-weight: 400;
+  border-bottom: gray 1px solid;
+  padding-bottom: 4px;
+  width: 100px;
+  margin-top: 30px;
+  color: #fff;
+}
+.community{
+  height: 90vh;
+  padding: 20px 120px;
+  background-color: white;
+}
+
+.community-card{
+  height: 70vh;
+  margin-top: 50px;
+  display: flex;
+
+}
+
+.community-text-section{
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.community-text-section h1{
+  font-size: 50px;
+  font-weight: 400;
+  color: black;
+}
+.community-text-section .deliver{
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+.community-text-section .learn{
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: gray 1px solid;
+  padding-bottom: 4px;
+  width: 110px;
+  margin-top: 20px;
+  color: black;
+}
+.community h3{
+  font-size: 22px;
+  font-weight: 400;
+  color: black;
+  border-bottom: #888787 1px solid;
+  padding-bottom: 15px;
+  margin-top: 20px;
+}
+.community-image-section{
+  background-image: url(./images/POC-pc.jpg.thumb.webp);
+  width: 80%;
+  height: 100%;
+  background-size: cover;
+}
+
+
 
 
 
