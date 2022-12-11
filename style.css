@@ -618,12 +618,24 @@ nav span{
   padding-bottom: 15px;
   margin-top: 20px;
 }
-.community-image-section{
-  background-image: url(./images/POC-pc.jpg.thumb.webp);
+.community-image-section-container{
   width: 80%;
   height: 100%;
-  background-size: cover;
+  overflow: hidden;
 }
+
+.community-image-section-container .community-image-section{
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/POC-pc.jpg.thumb.webp);
+  background-size: cover;
+  transition: 0.5s ease-in-out;
+}
+.community-image-section-container .community-image-section:hover{
+  transform: scale(1.12);
+}
+
+
 
 
 
