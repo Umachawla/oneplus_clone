@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+   /* border: 1px red solid; */ 
   font-family: 'Roboto', sans-serif;
 }
 
@@ -158,7 +158,7 @@ nav span{
 
 .tv-card{
   height: 550px;
-  width: 880px;
+  width: 800px;
   padding: 25px;
   background-color: #f8f8f8;
   display: flex;
@@ -457,7 +457,7 @@ nav span{
 }
 .oxygen-card{
   height: 550px;
-  width: 880px;
+  width: 800px;
   background-color: #222222;
   display: flex;
   align-items: center;
@@ -634,6 +634,207 @@ nav span{
 .community-image-section-container .community-image-section:hover{
   transform: scale(1.12);
 }
+
+.november-section{
+  height: 80vh;
+  padding: 20px 120px;
+}
+
+.november-section .product-card-container{
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+}
+.november-section .product-card{
+  width: 530px;
+  height: 580px;
+  background-color: #fff;
+}
+
+.november-section .november-image-section-container{
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.november-image-section{
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/card1pc.jpg.thumb.webp);
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+}
+.november-image-section-container .november-image-section:hover{
+  transform: scale(1.1);
+}
+.november-image-section-container .october-image-section:hover{
+  transform: scale(1.1);
+}
+.november-image-section-container .contest-image-section:hover{
+  transform: scale(1.1);
+}
+
+.november-section h1{
+  font-size: 40px;
+  font-weight: 300;
+  margin-top: 25px;
+}
+.november-section .welcome{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.november-section .read{
+  font-size: 18px;
+  font-weight: 400;
+  border-bottom: gray 1px solid;
+  padding-bottom: 4px;
+  width: 100px;
+  margin-top: 20px;
+  color: black;
+}
+.contest-image-section{
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/card3pc.jpg.thumb.webp);
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+}
+.october-image-section{
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/card2pc.jpg.thumb.webp);
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+}
+.support{
+  height: 100vh;
+  padding: 10px 120px;
+  
+  background-color: white;
+}
+.support-card-container{
+  height: 80%;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.support-card{
+  height: 550px;
+  width: 820px;
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.support-text-section{
+  height: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.support-text-section h3{
+  font-size: 24px;
+  font-weight: 400;
+  color: #00000066;
+}
+.support-text-section h1{
+  font-size: 42px;
+  font-weight: 300;
+  color: black;
+}
+.support-text-section p{
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+.support-text-section .chat{
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: gray 1px solid;
+  padding-bottom: 4px;
+  width: 90px;
+  margin-top: 20px;
+  color: black;
+}
+.support-image-container{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.support-image-section{
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/Helpdesk-PC.jpg.thumb.webp);
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+}
+.support-image-container .support-image-section:hover{
+  transform: scale(1.1);
+}
+.technical-support-image-container{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.technical-support-image-section{
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/Service-Center-desktop.jpg.thumb.webp);
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+}
+.technical-support-image-container .technical-support-image-section:hover{
+  transform: scale(1.1);
+}
+.support .support-heading{
+  font-size: 24px;
+  font-weight: 300;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+}
+ 
+.support .support-box{
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  border-top: 1px solid rgb(180, 179, 179);
+  border-bottom: 1px solid rgb(180, 179, 179);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.support .support-box h3{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.support .support-box .shopping{
+  border-left: 1px solid rgb(180, 179, 179);
+  padding-left: 50px;
+}
+.support .support-box .trouble{
+  border-left: 1px solid rgb(180, 179, 179);
+  padding-left: 50px;
+}
+.support .support-box .protection{
+  border-left: 1px solid rgb(180, 179, 179);
+  padding-left: 50px;
+}
+
+
+
+
+
+
 
 
 
