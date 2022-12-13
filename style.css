@@ -797,8 +797,8 @@ nav span{
 .support .support-heading{
   font-size: 24px;
   font-weight: 300;
-  border-bottom: 1px solid gray;
-  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(180, 179, 179);
+  padding-bottom: 10px;
 }
  
 .support .support-box{
@@ -828,6 +828,107 @@ nav span{
 .support .support-box .protection{
   border-left: 1px solid rgb(180, 179, 179);
   padding-left: 50px;
+}
+
+.connected{
+  height: 100vh;
+  padding: 10px 120px;
+  
+  background-color: black;
+}
+.connected-card-container{
+  height: 80%;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.connected-card{
+  height: 400px;
+  width: 820px;
+  background-image: url(./images/DownloadAPP-PC.jpg.thumb.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.connected .connected-heading{
+  font-size: 24px;
+  font-weight: 300;
+  border-bottom: 1px solid rgb(180, 179, 179);
+  padding-bottom: 10px;
+  color: white;
+  margin-top: 30px;
+}
+.connected-text-section{
+  height: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.connected-text-section h1{
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+.connected-text-section p{
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.connected-card .btn button{
+  width: 330px;
+  height: 56px;
+  border: 1px solid white;
+  font-size: 20px;
+  
+}
+
+.deserve-card{
+  height: 400px;
+  width: 820px;
+  background-image: url(./images/SMS-Subscribe-PC-20221110.jpg.thumb.webp);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.deserve-text-section{
+  height: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.deserve-text-section h1{
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+.deserve-text-section p{
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 30px;
+}
+.deserve-card .btn button{
+  width: 330px;
+  height: 56px;
+  border: 1px solid white;
+  font-size: 20px;
+  
+}
+.deserve-card .btn p{
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 15px;
+  
 }
 
 
