@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-   /* border: 1px red solid; */ 
+   /* border: 1px red solid;   */
   font-family: 'Roboto', sans-serif;
 }
 
@@ -837,7 +837,7 @@ nav span{
   background-color: black;
 }
 .connected-card-container{
-  height: 80%;
+  height: 50%;
   width: 100%;
   
   display: flex;
@@ -930,6 +930,191 @@ nav span{
   margin-bottom: 15px;
   
 }
+
+.connected .subscribe{
+  height: 40%;
+  width: 100%;
+}
+.connected .subscribe h1{
+  font-size: 60px;
+  font-weight: 400;
+  color: #fff;
+}
+.connected .subscribe h3{
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 20px;
+}
+.connected .subscribe .always-first{
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./images/SMS-Subscribe-S.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+.connected .always-first button{
+  height: 56px;
+  width: 240px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 50px;
+}
+
+.footer{
+  height: 90vh;
+  width: 100%;
+}
+
+.footer .links{
+  height: 55%;
+  width: 100%;
+  padding: 20px 120px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer .links ul{
+  list-style: none;
+}
+.footer .links ul li{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: gray;
+}
+.footer .links ul li:first-child{
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+.footer .payment-contact{
+  width: 100%;
+  padding: 5px 120px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .contact{
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .payment{
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .payment i{
+  color: green;
+  font-size: 28px;
+}
+.bi-credit-card-2-back-fill::after{
+  content: "Credit / Debit Card";
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 5px;
+}
+.bi-bank::after{
+  content: "Netbanking";
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 5px;
+}
+.bi-circle-half::after{
+  content: "EMI";
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 5px;
+}
+.bi-wallet-fill::after{
+  content: "Wallet";
+  color: black;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.footer .payment-contact .contact h3{
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(47, 144, 248);
+  border-right: 1px solid gray;
+  padding-right: 20px;
+}
+.footer .payment-contact .contact i{
+  font-size: 28px;
+  margin-right: 30px;
+  color: gray;
+}
+.footer .payment-contact .contact i:hover{
+  color: rgb(7, 7, 7);
+}
+
+.footer .last{
+  width: 100%;
+  height: 33%;
+  background-color: #f8f8f8;
+  padding: 10px 120px;
+  margin-top: 30px;
+  
+  border-top: 1px solid gray;
+}
+
+.footer .last .language-links{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer .last .link-list{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.footer .last .link-list li{
+  margin-right: 50px;
+  border-right: 1px solid gray;
+  padding-right: 40px;
+
+}
+
+.footer .last .language h3{
+  font-size: 28px;
+  font-weight: 400;
+}
+.footer .last .copyright{
+  height: 10%;
+  width: 100%;
+}
+.footer .last .copyright h4{
+ font-size: 15px;
+ color: gray;
+}
+
+
+
+
+
+
+
 
 
 
